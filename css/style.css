@@ -1,0 +1,18 @@
+.rojo{
+    color: red;
+    background-color: yellow;
+}
+
+.amarillo{
+    color: yellow;
+    background-color: green;
+}
+
+.verde{
+    color: green;
+    background-color: orange;
+}
+
+span{
+    color: red;
+}

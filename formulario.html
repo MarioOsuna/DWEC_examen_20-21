@@ -1,0 +1,44 @@
+<!-- @author Mario Osuna Ordóñez -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mario Osuna Ordóñez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Osuna Ordóñez</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/validar.js"></script>
+    <script src="js/Reservar.js"></script>
+    <script src="js/formulario.js"></script>
+
+    <noscript>
+        <p>La página que estás viendo requiere para su funcionamiento el uso de JavaScript.
+            Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo.</p>
+    </noscript>
+
+
+</head>
+
+<body>
+    <h1>Mario Osuna Ordóñez</h1>
+
+
+    <form action="">
+        <fieldset>
+            <legend>Nueva reserva</legend>
+            <label>DNI: <input type="text" name="dni"></label><span name="msj_dni"></span><br>
+            <label>Día de reserva: <input type="text" name="fecha"></label><span name="msj_dia"></span><br>
+            <label>Hora de reserva: <input type="text" name="hora"></label><span name="msj_reserva"></span><br>
+        </fieldset>
+
+        <label>Acepto las condiciones <input type="checkbox" name="check" ></label><span name="msj_check"></span>
+        <br>
+        <input type="submit" value="crear" name="crear">
+        <button type="reset" value="limpiar" name="limpiar">reset</button>
+        <button type="button" value="rellenar">rellenar</button>
+    </form>
+
+</body>
+
+</html>
